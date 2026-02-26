@@ -46,4 +46,4 @@ I am ready to help **KPL clubs, FKF, academies, and scouting firms** move beyond
 > "Data isn't just numbers; it's the 12th player on the pitch." — Dennis Gathu
 
 ---
-[![Dennis's GitHub stats](https://github-readme-stats.vercel.app/api?username=dennisgathu8&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
