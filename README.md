@@ -1,49 +1,106 @@
-# ⚽ Dennis Gathu | Football Data Architect
+# Dennis Gathu | Football Data Engineer
 
-![Header Image](https://img.shields.io/badge/Focus-Football_Performance_%26_Scouting-E31B23?style=for-the-badge&logo=football)
-![Region](https://img.shields.io/badge/Based_In-Kenya_%2F_East_Africa-009A4D?style=for-the-badge)
-
-### 🏛️ Engineering the Future of African Football Intelligence
-I am a 22-year-old **Football Data Analyst** based in Kenya, blending 1.5 years of high-stakes **Betting Business Intelligence** with a deep-rooted football legacy. Coming from a professional football family (my father was a pro player and development coach), I translate "gut feeling" into immutable, data-driven tactical edges.
+[![X](https://img.shields.io/badge/X-@Zigzagzila-000000?style=flat&logo=x)](https://x.com/Zigzagzila)
+[![Location](https://img.shields.io/badge/Based_in-Nairobi,_Kenya-006400?style=flat)]()
+[![Focus](https://img.shields.io/badge/Focus-African_Football_Infrastructure-FF6B00?style=flat)]()
 
 ---
 
-### 🧠 The Transition: From Betting BI to Pitch Performance
-My experience as a BI Analyst for major capital groups in Ethiopia (managing 8+ betting products) taught me to survive in high-pressure data environments.
-- **Precision:** Managed daily reconciliations and fraud detection for thousands of users using Telegram bot alerts.
-- **Visualization:** Built real-time Grafana dashboards for retention and promotion analysis.
-- **Impact:** Translated complex spikes into actionable marketing and design strategies.
+## What I'm building
 
-**Now, I apply this "Moneyball" rigor to the beautiful game.**
+African football produces players the world covets.
 
----
+It has never had the infrastructure to see itself clearly.
 
-### 🚀 Flagship Intelligence Systems
-
-| Project | Focus Area | Tech Stack | Club Impact |
-| :--- | :--- | :--- | :--- |
-| [**AgentRZA**](https://github.com/dennisgathu8/AgentRZA) | Scouting Pipelines | Python (LangGraph), DuckDB | Automated ingestion for 100% scouting coverage. |
-| [**heinze**](https://github.com/dennisgathu8/heinze) | Tactical Simulation | Clojure, Simulation Engines | Real-time "What If" testing for defensive shape. |
-| [**house-hedge**](https://github.com/dennisgathu8/house-hedge) | Market Intelligence | Clojure, Multi-Agent AI | Detecting player undervaluation and ROI edges. |
-| [**36CHAMBERS**](https://github.com/dennisgathu8/36CHAMBERS) | BI Foundation | Data Science, Notebooks | The statistical engine behind every tactical decision. |
+I'm building that infrastructure — open source, in Clojure,
+from Nairobi. The goal is a data foundation that clubs
+across the continent can own, inspect, and extend.
+Not licensed tools built for other contexts by people
+who have never watched football in Accra, Lagos,
+Nairobi, or Dar es Salaam.
 
 ---
 
-### 🛠️ Technical Tactical Stack
-- **Languages:** Python (Advanced), Clojure (Specialist), SQL.
-- **Intelligence:** Multi-Agent Systems, LangGraph, xG Modeling, Logistic Regression.
-- **BI & Visuals:** Grafana, Streamlit, Matplotlib, Seaborn.
-- **Data Workflows:** Zero-Trust Data Pipelines, DuckDB, Pydantic, GitHub Actions.
+## 🏗️ Clojure Sports Data Engineering Roadmap
+
+Five projects. Each solves a real infrastructure gap
+that Python cannot address structurally.
+
+| # | Project | What it solves | Status |
+|---|---------|---------------|--------|
+| 1 | [pitch-pipe](https://github.com/dennisgathu8/pitch-pipe) | StatsBomb ingestion + transducer pipeline. Zero-copy transformation, spec validation at the boundary. | ✅ Live |
+| 2 | [temporal-squad](https://github.com/dennisgathu8/temporal-squad) | XTDB bi-temporal player state. Answers what your system knew at selection time — not just what it knows now. | ✅ Live |
+| 3 | press-logic | Tactical rules as data via core.logic. Rules coaches can read, challenge, and modify — not opaque model weights. | 🔨 Building |
+| 4 | formation-stream | 25Hz tracking data via core.async. Backpressure handling, real-time compactness metrics. | 📋 Planned |
+| 5 | dugout | Full-stack analytics workbench. Clojure backend + ClojureScript frontend + shared .cljc logic. | 📋 Planned |
 
 ---
 
-### 🇰🇪 Looking for KPL & East African Collaborations
-I am ready to help **KPL clubs, FKF, academies, and scouting firms** move beyond basic event logging into predictive performance analysis.
+## The infrastructure gap across African football
 
-- 💬 Let’s talk tactics: [dennisgathu8@gmail.com](mailto:dennisgathu8@gmail.com)
-- 🤝 Open to: Full-time roles, freelance scouting audits, and tactical consulting.
+The problem is the same whether you are in the KPL,
+NPFL, CAF interclub, PSL, or the Ethiopian Premier League:
 
-> "Data isn't just numbers; it's the 12th player on the pitch." — Dennis Gathu
+- Decisions made on data that arrived after the fact
+- Pipelines that silently corrupt data for months
+  before anyone notices
+- Models coaches cannot interrogate or challenge
+- Tools that live on one analyst's laptop and disappear
+  when they leave
+
+This is not a talent problem. It is a plumbing problem.
+And it is solvable.
 
 ---
 
+## Why Clojure for football analytics
+
+| Problem | Python | Clojure |
+|---------|--------|---------|
+| Pipeline memory | Each Pandas step allocates a new DataFrame | Transducers compose into a single pass — zero intermediate collections |
+| Data integrity | Silent NaN coercion on bad data | clojure.spec validates at the boundary — bad data throws before it touches the pipeline |
+| Temporal queries | Postgres overwrites history | XTDB stores valid-time and transaction-time on every fact, automatically |
+| Tactical rules | Neural net confidence scores coaches can't interrogate | core.logic encodes rules as readable data — auditable, modifiable without retraining |
+| Full-stack | Python backend + JS frontend = two codebases | .cljc shared logic runs on JVM and in the browser — one codebase |
+
+---
+
+## Background
+
+- **1.5 years** as BI Analyst at a capital group in Ethiopia
+  managing data infrastructure across 8+ betting products
+- Built real-time fraud detection, Grafana dashboards,
+  and reconciliation pipelines under production pressure
+- Football is in the family — my father was a professional
+  player and development coach
+- Self-taught. Nairobi. Building in public.
+
+---
+
+## Stack
+
+**Primary:** Clojure · ClojureScript · XTDB · core.async · core.logic
+**Data:** StatsBomb · SQL · DuckDB · clojure.spec
+**BI & Viz:** Grafana · Streamlit · Matplotlib
+**Infra:** GitHub Actions · Fly.io · Leiningen · Shadow-cljs
+
+---
+
+## 🌍 Open to
+
+- Football analytics roles across Africa and globally
+- Clubs in CAF competitions serious about data infrastructure
+- Federations building analytics capacity from the ground up
+- Academies tracking player development over time
+- Any league — KPL, NPFL, PSL, EPL, wherever the
+  problem is real and the will to solve it exists
+- Freelance data infrastructure contracts
+- Open source collaborators who care about African football
+
+📧 dennisgathu8@gmail.com
+
+---
+
+> *"Data isn't just numbers; it's the 12th player
+> on the pitch."*
+> — Dennis Gathu
