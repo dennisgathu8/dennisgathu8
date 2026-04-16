@@ -1,6 +1,6 @@
 # Dennis Gathu | Football Data Engineer
 
-[![X](https://img.shields.io/badge/X-@Zigzagzila-000000?style=flat&logo=x)](https://x.com/Rutomustgo100)
+[![X](https://img.shields.io/badge/X-@Zigzagzila-000000?style=flat&logo=x)](https://x.com/zi6za6zi6la)
 [![Location](https://img.shields.io/badge/Based_in-Nairobi,_Kenya-006400?style=flat)]()
 [![Focus](https://img.shields.io/badge/Focus-African_Football_Infrastructure-FF6B00?style=flat)]()
 
