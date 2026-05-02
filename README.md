@@ -30,7 +30,7 @@ that Python cannot address structurally.
 |---|---------|---------------|--------|
 | 1 | [pitch-pipe](https://github.com/dennisgathu8/pitch-pipe) | StatsBomb ingestion + transducer pipeline. Zero-copy transformation, spec validation at the boundary. | ✅ Live |
 | 2 | [temporal-squad](https://github.com/dennisgathu8/temporal-squad) | XTDB bi-temporal player state. Answers what your system knew at selection time — not just what it knows now. | ✅ Live |
-| 3 | press-logic | Tactical rules as data via core.logic. Rules coaches can read, challenge, and modify — not opaque model weights. | 🔨 Building |
+| 3 | [press-logic](https://github.com/dennisgathu8/press-logic) | Tactical pressing rules as EDN data. core.logic evaluation with fatigue-aware pressing via temporal-squad XTDB. First cross-project integration in the roadmap. | ✅ Live |
 | 4 | formation-stream | 25Hz tracking data via core.async. Backpressure handling, real-time compactness metrics. | 📋 Planned |
 | 5 | dugout | Full-stack analytics workbench. Clojure backend + ClojureScript frontend + shared .cljc logic. | 📋 Planned |
 
@@ -71,8 +71,11 @@ And it is solvable.
   managing data infrastructure across 8+ betting products
 - Built real-time fraud detection, Grafana dashboards,
   and reconciliation pipelines under production pressure
-- Football is in the family — my father was a professional
-  player and development coach
+- Football is in the family — my father is a FIFA licensed
+  agent and we run Infoot Technique, a scouting company
+  in Kenya. Our work has produced players including
+  Softi Ndirangu (Gor Mahia, AFC Leopards) and Peter
+  Thiongo who captained AFC Leopards
 - Self-taught. Nairobi. Building in public.
 
 ---
