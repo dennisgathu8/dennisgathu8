@@ -31,7 +31,7 @@ that Python cannot address structurally.
 | 1 | [pitch-pipe](https://github.com/dennisgathu8/pitch-pipe) | StatsBomb ingestion + transducer pipeline. Zero-copy transformation, spec validation at the boundary. | ✅ Live |
 | 2 | [temporal-squad](https://github.com/dennisgathu8/temporal-squad) | XTDB bi-temporal player state. Answers what your system knew at selection time — not just what it knows now. | ✅ Live |
 | 3 | [press-logic](https://github.com/dennisgathu8/press-logic) | Tactical pressing rules as EDN data. core.logic evaluation with fatigue-aware pressing via temporal-squad XTDB. First cross-project integration in the roadmap. | ✅ Live |
-| 4 | formation-stream | 25Hz tracking data via core.async. Backpressure handling, real-time compactness metrics. | 📋 Planned |
+| 4 | [formation-stream](https://github.com/dennisgathu8/formation-stream) | 25Hz tracking data pipeline via core.async. Explicit backpressure monitoring. Compactness and pressing intensity metrics. | ✅ Live |
 | 5 | dugout | Full-stack analytics workbench. Clojure backend + ClojureScript frontend + shared .cljc logic. | 📋 Planned |
 
 ---
