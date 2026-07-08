@@ -71,6 +71,8 @@ And it is solvable.
   managing data infrastructure across 8+ betting products
 - Built real-time fraud detection, Grafana dashboards,
   and reconciliation pipelines under production pressure
+- CAF D licenced football coach. My understanding of the game
+  is not just from a data perspective.
 - Football is in the family — my father is a FIFA licensed
   agent and we run Infoot Technique, a scouting company
   in Kenya. Our work has produced players including
