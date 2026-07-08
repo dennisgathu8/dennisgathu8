@@ -1,4 +1,4 @@
-# Dennis Gathu | Football Data Engineer
+# Dennis Gathu | Football Data Engineer | CAF D
 
 [![X](https://img.shields.io/badge/X-@Zigzagzila-000000?style=flat&logo=x)](https://x.com/zi6za6zi6la)
 [![Location](https://img.shields.io/badge/Based_in-Nairobi,_Kenya-006400?style=flat)]()
